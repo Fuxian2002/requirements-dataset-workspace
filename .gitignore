@@ -1,0 +1,11 @@
+.env
+.env.*
+*.key
+*.pem
+api_keys.*
+secrets/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
