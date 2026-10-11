@@ -1,0 +1,43 @@
+{
+  "timestamp_utc": "2026-10-11T03:47:52.902656+00:00",
+  "checks_result": "pass",
+  "full_conversion_result": "blocked",
+  "commands": [
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/check_data_projection.py",
+        "--root",
+        "."
+      ],
+      "started_utc": "2026-10-11T03:47:52.629295+00:00",
+      "finished_utc": "2026-10-11T03:47:52.680558+00:00",
+      "exit_code": 0,
+      "stdout": "{\n  \"result\": \"pass\",\n  \"errors\": [],\n  \"distinct_data_atoms\": 282,\n  \"atom_occurrences\": 423,\n  \"unconfirmed_device_operations_in_projection\": 0,\n  \"artifact_sha256\": \"1a12fcafe2446803136ebe8f5aabd2131a796152b7a8873aeca357712aa21017\",\n  \"full_LC_conversion\": \"blocked, not checked as complete\",\n  \"scope\": \"exact Compute/Set shapes, symbols, formula contracts, boolean symbols and block structure; not semantic equivalence or execution\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "started_utc": "2026-10-11T03:47:52.680604+00:00",
+      "finished_utc": "2026-10-11T03:47:52.896679+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_actual_data_projection_passes_but_full_remains_blocked (test_strict_projection.StrictProjectionTests) ... ok\ntest_all_44_unconfirmed_calls_are_rejected_not_promoted (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_else_without_if (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_extra_compute_function_name (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_field_access_as_atom_operand (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_short_reference_keyword (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_software_native_call_in_data_projection (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_unbalanced_structure (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_unknown_guard (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_unregistered_formula (test_strict_projection.StrictProjectionTests) ... ok\ntest_rejects_wrong_catalog_excerpt (test_strict_projection.StrictProjectionTests) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.160s\n\nOK\n"
+    }
+  ],
+  "LC_dev_97_files_unchanged": true,
+  "82_reviewed_requirements_preserved_byte_for_byte": true,
+  "not_run": [
+    "LC/cFE runtime",
+    "official SpaceRDL parser",
+    "complete system semantic equivalence"
+  ]
+}

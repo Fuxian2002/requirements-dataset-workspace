@@ -1,0 +1,495 @@
+{
+  "local_source": "/Users/lostintianyi/Project/数据集/10.8/LC/LC-dev",
+  "version_kind": "local source archive, no .git",
+  "comparison": "all 97 local files byte-identical to frozen evidence/LC",
+  "matched_evidence_commit": "f54e136220d8d6f2e207ba57073a9faeef9d3b0f",
+  "commit_note": "content equality evidence, not a local git HEAD claim",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "dd23830e29f1214561ab150f8921f198a68aedcef9f35fcaed51a07da413d47c",
+      "size_bytes": 994
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "99b90b72d16340c87d46b4ec1bd7b6ac310dba4d3c0c477f9b2aba722e570f8d",
+      "size_bytes": 1058
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/comment_documentation_change.md",
+      "sha256": "9f64c9d6491feada9168af0db307787c331980fa40f79d768f2d62c43489dece",
+      "size_bytes": 1299
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/fsw_code_change.md",
+      "sha256": "4a6b39d88c85d8c1d4e9518d76b645d1fbfd6d8af38964436862f8d883547ab2",
+      "size_bytes": 3214
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/workflows_change.md",
+      "sha256": "02e2a4f6e56f8ddcf7597cc2fa211072efae5d4180582ea11f63d63394ccf06d",
+      "size_bytes": 1331
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "bfe94e17947e1eabd80e493dd60d489e1dbae0435e62a795d23f601b9344b5fa",
+      "size_bytes": 1842
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "sha256": "f288bba97d85b2b99151e21cb89f4b362a92b7bce8ed7958274d7eb43fa3757f",
+      "size_bytes": 310
+    },
+    {
+      "path": ".github/workflows/build-documentation.yml",
+      "sha256": "c741c1677cb468c2909aee2e5eedb872a6c7111c5500d260de92176934f01bfc",
+      "size_bytes": 494
+    },
+    {
+      "path": ".github/workflows/build-run-app.yml",
+      "sha256": "357a4ae8e7cb71864ac05167f752a035878bd1483ba8fdbc01ea44381074c9cc",
+      "size_bytes": 384
+    },
+    {
+      "path": ".github/workflows/codeql-build.yml",
+      "sha256": "942d057e58cb8a5156f0189123599e16595043abc44d1ef8c0daae03b5ea299d",
+      "size_bytes": 430
+    },
+    {
+      "path": ".github/workflows/format-check.yml",
+      "sha256": "ca5daf1719e870c13522cb1886103b34e1803cfd70d9783bf878c3ba0cff7900",
+      "size_bytes": 315
+    },
+    {
+      "path": ".github/workflows/mcdc.yml",
+      "sha256": "460c81d90169c37f7b095f828e116e079d80975de75f77b49186e26566a8bedd",
+      "size_bytes": 304
+    },
+    {
+      "path": ".github/workflows/static-analysis.yml",
+      "sha256": "78acaaf0d69da80d7b29ac05db81a60f11823f6d82f3e770d18603a911b48614",
+      "size_bytes": 336
+    },
+    {
+      "path": ".github/workflows/unit-test-coverage.yml",
+      "sha256": "4cdeb506af08aea6062c2486ab4191aa64342e847ebb8eb22ae066d053c0910c",
+      "size_bytes": 389
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "9b1acbf03a77ef0684b5ade6830ba017620299d39cb2f49309b32c8c8b945d57",
+      "size_bytes": 1338
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "6f08eaee016bdbe6984f55e23027a215e8b1878a3d4d35f07dad0a7cedf21ab4",
+      "size_bytes": 458
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "size_bytes": 11357
+    },
+    {
+      "path": "README.md",
+      "sha256": "22fa2ac589f538915ddba9db4d1e518aa86978a5be7b3632d3bc10e6d8c7a80a",
+      "size_bytes": 1505
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "6d579be16e740aff7903b2eca2d0d26537c93fa5e8b6c1c5f8b1f5f1bc109ca4",
+      "size_bytes": 410
+    },
+    {
+      "path": "arch_build.cmake",
+      "sha256": "d9091155484223d1c079914125a212bfebcbec4b7c4b1352f1ee0eeabf6a2d26",
+      "size_bytes": 539
+    },
+    {
+      "path": "config/default_lc_fcncode_values.h",
+      "sha256": "0fce975ec718cd2a549a9c0604d309d8abe05cf01a01977f4c1ca45dce265ea6",
+      "size_bytes": 1665
+    },
+    {
+      "path": "config/default_lc_interface_cfg_values.h",
+      "sha256": "a33f6ecfa434ac0bf48b07d28f1cb8b213cd0909783718b03cc4d17cbd9a06de",
+      "size_bytes": 1593
+    },
+    {
+      "path": "config/default_lc_internal_cfg_values.h",
+      "sha256": "c5e0987450030fa4ccf04209ac1d081ee45dcdd0f9b95ede8c13b93a2aa9a7f4",
+      "size_bytes": 1681
+    },
+    {
+      "path": "config/default_lc_mission_cfg.h",
+      "sha256": "ab324194dd9b6f52a1825d016670fd1477601aeb2fbc5ae30d67e17809db068a",
+      "size_bytes": 1510
+    },
+    {
+      "path": "config/default_lc_msg.h",
+      "sha256": "94e198d10371eb0ed80e5689dea8df0194a636c0494d42164e14959b2eef5280",
+      "size_bytes": 1503
+    },
+    {
+      "path": "config/default_lc_msgdefs.h",
+      "sha256": "82297ef4443c866da03dfb652334f44a877cc4bdeaec139c30e6191aecf3db15",
+      "size_bytes": 4908
+    },
+    {
+      "path": "config/default_lc_msgid_values.h",
+      "sha256": "39a403d594c4677b1b42d958a4aa5b3c6f760ae39b28d58d6a772f9b493f9f1f",
+      "size_bytes": 1308
+    },
+    {
+      "path": "config/default_lc_msgids.h",
+      "sha256": "c860499ce94be09fe9f2446c5584fb4ec7e5a0f3b289489a628fd3092ef7ffb8",
+      "size_bytes": 1780
+    },
+    {
+      "path": "config/default_lc_msgstruct.h",
+      "sha256": "4e5b900d9a56a582d917200918cd30b3f26d16f6d1689931c85cab8bc8de099f",
+      "size_bytes": 8654
+    },
+    {
+      "path": "config/default_lc_platform_cfg.h",
+      "sha256": "a4494c5d5d75e7f8eb5c31cf0174614d1d369ba19c64fddf4ed40a7766cfb8b1",
+      "size_bytes": 1636
+    },
+    {
+      "path": "config/default_lc_tbl.h",
+      "sha256": "9a4d057fd2c3db67f0ceba4615caf7c4fef2d6925cf14720543a42b1acd0390d",
+      "size_bytes": 1335
+    },
+    {
+      "path": "config/default_lc_tbldefs.h",
+      "sha256": "0b9efaa018fd35b3f57c159215331f4bca39a09fe82f8b9112da56bcb0f1c953",
+      "size_bytes": 7424
+    },
+    {
+      "path": "config/default_lc_tblstruct.h",
+      "sha256": "78a611d51eb4b49e719aa3db6ab516dbc6b52c9e3b4b7da533d20070f2aad428",
+      "size_bytes": 9063
+    },
+    {
+      "path": "config/default_lc_topicid_values.h",
+      "sha256": "f517a683a676acb0218aacc2531f0f1a2b85b2d83ec29256d0fc08340d38ae36",
+      "size_bytes": 1133
+    },
+    {
+      "path": "config/eds_lc_fcncode_values.h",
+      "sha256": "9fec800c3e84448ced0ec4abd5d6e9a9e41b396edd18c5f7759e00ffb06375c4",
+      "size_bytes": 1558
+    },
+    {
+      "path": "config/eds_lc_interface_cfg_values.h",
+      "sha256": "5e11ed4828a6229a4b723528ed5e9618a37ffec5e8c2fcad984ab4595c4b01a6",
+      "size_bytes": 1575
+    },
+    {
+      "path": "config/eds_lc_msgdefs.h",
+      "sha256": "6aa9caefa8eaf92a560d82f0199337fed7e1e902012f5462201b860674479c35",
+      "size_bytes": 1621
+    },
+    {
+      "path": "config/eds_lc_msgstruct.h",
+      "sha256": "4d7a350ec70e820ac1c633a95af12df4a931047cc44843f5765dddbb92d8ed95",
+      "size_bytes": 1274
+    },
+    {
+      "path": "config/eds_lc_tbldefs.h",
+      "sha256": "07a91ad2e3febdc72ea6794048fa77ca46485f1f9b77ce59937faa33e52ba5c6",
+      "size_bytes": 1499
+    },
+    {
+      "path": "config/eds_lc_tblstruct.h",
+      "sha256": "32e735ca73d69fe25b34c22eb8c0a354fe2b67a19e55c086effc1a7263d6268e",
+      "size_bytes": 1107
+    },
+    {
+      "path": "config/eds_lc_topicid_values.h",
+      "sha256": "89c22c297d527ed6dc645ae9d7a23b18c75cb338454f19144d22db7de0e8e955",
+      "size_bytes": 1182
+    },
+    {
+      "path": "docs/dox_src/CMakeLists.txt",
+      "sha256": "cb88de658868d0530d09b87d13c624739be5355665da339adc47369fa3308eb1",
+      "size_bytes": 1268
+    },
+    {
+      "path": "docs/dox_src/LC_Context.png",
+      "sha256": "c354d76df5edf9fd4546787d29c7ebfb5b42a2ad731c24cc72d468401a694d7b",
+      "size_bytes": 73353
+    },
+    {
+      "path": "docs/dox_src/LC_Monitor_Process.png",
+      "sha256": "cdbdc03be7454f50024acd57106edd5f3d2e961833ffbf1d498fc607d87dc84e",
+      "size_bytes": 79833
+    },
+    {
+      "path": "docs/dox_src/cfs_lc.dox",
+      "sha256": "7fd6f98cb8f7f9f4c0ceebd7a19dc4a5e770a8949f939ce7933fed5c748c0b22",
+      "size_bytes": 37195
+    },
+    {
+      "path": "docs/dox_src/lc-common.doxyfile.in",
+      "sha256": "f40facb6bf9f422026e161f879c980cac6a2c627c99a2d9f11ea5af414cbf821",
+      "size_bytes": 420
+    },
+    {
+      "path": "docs/dox_src/lc-usersguide.doxyfile.in",
+      "sha256": "107c3f2d54ffb0c4bc5799df7ce8b69dc961bcb1be2e7279085935a90d73c585",
+      "size_bytes": 764
+    },
+    {
+      "path": "docs/lc-detaildesign.doxyfile.in",
+      "sha256": "117753950e2857a45db2a7c942b5a3385f3989eb244dede8cbcb09fbce6e5548",
+      "size_bytes": 293
+    },
+    {
+      "path": "docs/lc_FunctionalRequirements.csv",
+      "sha256": "b7114fba850e88f44a5d1231aa3b0f5e7eead5cca916fa69108a2a1800c5b179",
+      "size_bytes": 22495
+    },
+    {
+      "path": "docs/users_guide_historical/CFS LC User Guide Doc No 582-2012-004 Source Files.zip",
+      "sha256": "448cdaa0804ee2e5cc4f8918edfb3d422dac8ea507494979ae32418a45bea849",
+      "size_bytes": 2413555
+    },
+    {
+      "path": "docs/users_guide_historical/cFS LC User Guide Doc No 582-2012-004 Ver 1_1 2017_08-29.pdf",
+      "sha256": "fa48066a567c84dc43ad357a96c384d458550daf43812b3fa9e67d93dbdff5e7",
+      "size_bytes": 1723773
+    },
+    {
+      "path": "eds/LC.xml",
+      "sha256": "62641ecf2677ab8688027b555c35ce6ea07659e9fd7b42db4a06ed46fb13ca8f",
+      "size_bytes": 29459
+    },
+    {
+      "path": "fsw/inc/lc_eventids.h",
+      "sha256": "bb64019fedba73e4c1034b71f4a585fe06222d2bb46eb4b3434f15e9f36c9563",
+      "size_bytes": 24560
+    },
+    {
+      "path": "fsw/inc/lc_fcncodes.h",
+      "sha256": "707b9a5968c67419f61bf3eedbf0869bfdf7e1bb079efd6a51af6fabb241217b",
+      "size_bytes": 9087
+    },
+    {
+      "path": "fsw/inc/lc_interface_cfg.h",
+      "sha256": "089952bb156956a3302834c5e934145c1debf7f8ce06280dff183027c44cad9e",
+      "size_bytes": 6148
+    },
+    {
+      "path": "fsw/inc/lc_internal_cfg.h",
+      "sha256": "da3d42cdd2fce8c48c22054d77aa7ef0e9803bdb949bdd129c64aec21fbcc444",
+      "size_bytes": 7450
+    },
+    {
+      "path": "fsw/inc/lc_perfids.h",
+      "sha256": "71fd020961035c83aa465845b5c70953c97e20c71d3be6f9d436dc3d132f39a5",
+      "size_bytes": 1273
+    },
+    {
+      "path": "fsw/inc/lc_topicids.h",
+      "sha256": "7cddc78d96ec4b05d0a8782c9a70607f46b8d8bd3935bfacac2188a02a1ee2d2",
+      "size_bytes": 1546
+    },
+    {
+      "path": "fsw/src/lc_action.c",
+      "sha256": "d1f94ee481ea3de89fcf5e5169e5fcb55c7ead08864b9a15bd06c7e2696136dd",
+      "size_bytes": 25451
+    },
+    {
+      "path": "fsw/src/lc_action.h",
+      "sha256": "d65bcb7e36dde3ec3ed272c5f58ce3e7a0d509f59575a6d21f74fb3fe79c3a46",
+      "size_bytes": 6365
+    },
+    {
+      "path": "fsw/src/lc_app.c",
+      "sha256": "77afe5b8de0d4e96cccdb4ee829453899af60a511241ca7f991553e0c379b236",
+      "size_bytes": 33967
+    },
+    {
+      "path": "fsw/src/lc_app.h",
+      "sha256": "8fa4bdebe7750aef709b99a81912af91043ce8a9efc67a70d1ee4da3d4f53223",
+      "size_bytes": 12157
+    },
+    {
+      "path": "fsw/src/lc_cmds.c",
+      "sha256": "6578bc4524755f0df72c37270c8df9b9e3c4ce8294a8b91d03c6a76f424ce4f6",
+      "size_bytes": 25807
+    },
+    {
+      "path": "fsw/src/lc_cmds.h",
+      "sha256": "66504ff1a960193ec7609153e7ca27db1942a09c25d4aa910274645ad6426ad0",
+      "size_bytes": 6145
+    },
+    {
+      "path": "fsw/src/lc_custom.c",
+      "sha256": "93d2c1d2971376108ab2f38052c16626a70fbc78809fddba800981da64d8c2e5",
+      "size_bytes": 3857
+    },
+    {
+      "path": "fsw/src/lc_custom.h",
+      "sha256": "8c36fc4db873cd24fc1bdb2a9a297e5924fba39c6e74bc926422b2b5790f9cb5",
+      "size_bytes": 4189
+    },
+    {
+      "path": "fsw/src/lc_dispatch.c",
+      "sha256": "6842bb12e82ead1716f622affdcdd36e1b5aca08d788942ba36edf6b27256ce8",
+      "size_bytes": 13518
+    },
+    {
+      "path": "fsw/src/lc_dispatch.h",
+      "sha256": "b94b4500ab3a74f30eda9cb5c1466aa3ad6b2b3b3254c4da5f1b74771c2facf0",
+      "size_bytes": 2015
+    },
+    {
+      "path": "fsw/src/lc_eds_dispatch.c",
+      "sha256": "442371774c94fc993ad22adfe772dce3d826e8eecc6f094e1f22d14d3fa2d8a7",
+      "size_bytes": 3996
+    },
+    {
+      "path": "fsw/src/lc_utils.c",
+      "sha256": "7a5beeada3549239eb6157ca4755ba2fd54b7d5b0e242002a0973359820da128",
+      "size_bytes": 6581
+    },
+    {
+      "path": "fsw/src/lc_utils.h",
+      "sha256": "f31bfc8e440413b51ab819df337cb712c12afb375a93ebb5232cea828f173020",
+      "size_bytes": 3050
+    },
+    {
+      "path": "fsw/src/lc_verify.h",
+      "sha256": "07dd6ade94def6989c90b2a3e718c79fc8af982df9875a4b7b0809ff7e753d15",
+      "size_bytes": 5790
+    },
+    {
+      "path": "fsw/src/lc_version.h",
+      "sha256": "90449c98917f6db60d95dfe09b09c8a0246b8021443c8f6366a8d82793e365bb",
+      "size_bytes": 1373
+    },
+    {
+      "path": "fsw/src/lc_watch.c",
+      "sha256": "f1bb42d4aafe3bca1a71be2eef0711712d52064c88d5366d8c07523acaee940b",
+      "size_bytes": 42805
+    },
+    {
+      "path": "fsw/src/lc_watch.h",
+      "sha256": "c6e7b4a7fe7a04445a02438bdf55d94bc443006df0b592c4a46dc513e2c4930f",
+      "size_bytes": 15938
+    },
+    {
+      "path": "fsw/tables/lc_def_adt.c",
+      "sha256": "3699deb896222a1592df2bc2194da88f0a1134e723ba54199794a0edd07ac6aa",
+      "size_bytes": 79079
+    },
+    {
+      "path": "fsw/tables/lc_def_wdt.c",
+      "sha256": "9ff1a67cc3ae221b9861de760034555c5676d97f97239b114e12a233f3546b4c",
+      "size_bytes": 75982
+    },
+    {
+      "path": "mission_build.cmake",
+      "sha256": "ea8ef7cf3a5e7c5a9e886f8097ca62902cac92a5c4093b6b2e7d328e2c1525b0",
+      "size_bytes": 763
+    },
+    {
+      "path": "unit-test/CMakeLists.txt",
+      "sha256": "3dfcf5d579daa39988c3915ff6a8803640b1217b8119c7d985ede6e3d14f0adb",
+      "size_bytes": 2061
+    },
+    {
+      "path": "unit-test/lc_action_tests.c",
+      "sha256": "7b601427875333ed9b329675299204a040e9626ff6759cf54e50756a0b456d68",
+      "size_bytes": 75796
+    },
+    {
+      "path": "unit-test/lc_app_tests.c",
+      "sha256": "2056fe4fb00e82fd2710516271a9cbc81d8d3dbbf747301d609b426ddc2c40bf",
+      "size_bytes": 70207
+    },
+    {
+      "path": "unit-test/lc_cmds_tests.c",
+      "sha256": "d6e56d47839b7d0031a36eeef83cdca4a84ed96171a471c9585d4944d52d6ab0",
+      "size_bytes": 103807
+    },
+    {
+      "path": "unit-test/lc_custom_tests.c",
+      "sha256": "4329473645637eaa574b5aabe9208a67c3767166eef6e4d5a45e321fc1c6ed30",
+      "size_bytes": 4076
+    },
+    {
+      "path": "unit-test/lc_dispatch_tests.c",
+      "sha256": "880067c00e842fb1e3066203cfd9dbb8ca2dec4f02a255a430d8603b5b58bc40",
+      "size_bytes": 12593
+    },
+    {
+      "path": "unit-test/lc_eds_dispatch_tests.c",
+      "sha256": "6be20c84b3bce85ac0d0d9008f3aeef563ea77612868949f78102d0b18e19730",
+      "size_bytes": 1997
+    },
+    {
+      "path": "unit-test/lc_utils_tests.c",
+      "sha256": "3e15f0ce623d27e1751f5afaff45c662396dafafb69f2703e3a81fded8f994bc",
+      "size_bytes": 13916
+    },
+    {
+      "path": "unit-test/lc_watch_tests.c",
+      "sha256": "838dedad8baad618082c640c62d703728d4d4bb752e5c8504099628d0af1314d",
+      "size_bytes": 100705
+    },
+    {
+      "path": "unit-test/stubs/lc_action_stubs.c",
+      "sha256": "fd04c6e40ce522cddae091570a7109008fe6f6134ddfe16f595f65ce00d08129",
+      "size_bytes": 3315
+    },
+    {
+      "path": "unit-test/stubs/lc_app_stubs.c",
+      "sha256": "2d0818795e14227bb5d20d27cf6ef68a2f343705a7d3b1a858bef833d9b39f5b",
+      "size_bytes": 4508
+    },
+    {
+      "path": "unit-test/stubs/lc_cmds_stubs.c",
+      "sha256": "ed99d86e008ac23680be6c8da04395d27ed83845325630b1cfab03ce039c5280",
+      "size_bytes": 6716
+    },
+    {
+      "path": "unit-test/stubs/lc_custom_stubs.c",
+      "sha256": "d94b8a6098baf3643048938eab26d9cb108c813f3b0edd4fe39b9609c3367687",
+      "size_bytes": 2269
+    },
+    {
+      "path": "unit-test/stubs/lc_dispatch_stubs.c",
+      "sha256": "4f41dc197633e9ffa2cb281e99d2441322999180b04ee41647de23d6a9cad041",
+      "size_bytes": 1415
+    },
+    {
+      "path": "unit-test/stubs/lc_global_stubs.c",
+      "sha256": "10ba2dd9062238b04b598e8dd82c2663f20d3d10f1c6acf237182ce48d8b8ed8",
+      "size_bytes": 1350
+    },
+    {
+      "path": "unit-test/stubs/lc_utils_stubs.c",
+      "sha256": "ea4da26e132dd27e634fc9fcb6cb5d57c6e9d83bedc6f6d9fcfc287104e974da",
+      "size_bytes": 2303
+    },
+    {
+      "path": "unit-test/stubs/lc_watch_stubs.c",
+      "sha256": "b772daa5efc1295b39cc423d8bcfe5e24782edd111f8e681eaec8f42be91aeeb",
+      "size_bytes": 7480
+    },
+    {
+      "path": "unit-test/utilities/lc_test_utils.c",
+      "sha256": "cbe7ba98ce927f727c114c8704cde9a99214a8b5a19f8621014c8fd32a3c603f",
+      "size_bytes": 4081
+    },
+    {
+      "path": "unit-test/utilities/lc_test_utils.h",
+      "sha256": "7dc85539dfe879538e2fb99f33e0f7299756a6228365c59a38edc071b48ed428",
+      "size_bytes": 2965
+    }
+  ],
+  "original_modified": false
+}
