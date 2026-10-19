@@ -1,0 +1,12 @@
+{
+  "requirements.json": "df69a8a22c939cb65f328e58d6cf69fca30737560aa8b2af935173363f20ebf9",
+  "resources.json": "edaf2d558804efb6dba2e9407f9464e46abf48195bedc8114566df5d7a58363c",
+  "data_fragment_statements.json": "77e5fbadff2f9e922f91f27ecd3bb28e86bf8a8a916f77b1ff9547fff84fc690",
+  "strict_audit.json": "1a942d33f666242f71b63c3c074a8c37803496979c260b92c0b882bf5ab50fc8",
+  "data_fragments.rdl": "1a12fcafe2446803136ebe8f5aabd2131a796152b7a8873aeca357712aa21017",
+  "code.rdl": "1a12fcafe2446803136ebe8f5aabd2131a796152b7a8873aeca357712aa21017",
+  "data/issues.json": "71364b6bb992e5fde60af5ef25987694305cca8f668f0aa739d613688403bdfb",
+  "source_manifest.json": "e2489297b618938095010a07a676b135c7ea462cb91db828307f8b47ce13be7e",
+  "local_source_manifest.json": "82a6e5e8881414aedd9a5cf8103a7e801ffe0d8ed8dccb1557d9be2e8448ea6d",
+  "history/requirements_reviewed.md": "ffde5f0ce1e69cd078cd264611ce08401a068fbf8215ebee0d8a22a257250389"
+}
