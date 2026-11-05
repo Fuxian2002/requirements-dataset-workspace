@@ -2,6 +2,10 @@
 
 本仓库用于集中保存学生对开源嵌入式项目进行需求抽取、SpaceRDL 形式化和追踪分析的成果。
 
+## 工具
+
+- [需求—代码匹配工具](tools/requirement-code-matcher/README.md)：输入 Word 需求文档和项目源码，完成代码理解、功能需求与步骤复审、候选检索及带源码证据的可视化匹配。可选本地 embedding 检索；默认启用有预算限制的调用图候选扩展。
+
 ## 当前项目
 
 - `SMART-QSO/`：SMART-QSO 1U CubeSat 项目的需求处理结果。
